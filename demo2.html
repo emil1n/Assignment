@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>student record</title>
+</head>
+<body>
+
+    <h1>demo getting values</h1>
+    <input type="text" id="firstName" value="Test">
+    <button id="btnEvaluate" onclick="handleClick()">click </button>
+    
+
+    <input type="text" id="txtname" value="Test">
+    <button id="btnEvaluate1" onclick="handleClick1()">click on </button>
+    
+    <!--paragraph-->
+    <p id="lastName"><b>I am para</b></p>
+    <script >
+
+        var ellastName=document.getElementById("lastName");
+        console.log(ellastName.innerHTML);
+        console.log(ellastName.innerText);
+
+
+        //handleClick function for button btnevaluate
+
+        var handleClick = function(event){
+            console.log(document.getElementById("firstName").value);
+            document.getElementById("firstName").value="Nissan";
+        };
+        var button=document.querySelector('#btnTest');
+        button.addEventListener('click',handleClick);
+
+
+            var handleClick1 = function(event){
+            console.log(document.getElementById("txtname").value);
+            document.getElementById("txtname").value="Nissan next method";
+        };
+        var button=document.querySelector('#btnTest');
+        button.addEventListener('click',handleClick1);
+        
+    </script>
+</body>
+</html>
