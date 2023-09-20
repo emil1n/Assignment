@@ -1,0 +1,48 @@
+.buttonContainer {
+    margin: 10px auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.headerContainer {
+    margin: 10px auto;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.imgContainer {
+    height: 80px;
+    width: 80px;
+}
+
+.textContainer {
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.summerContainer {
+    vertical-align: bottom;
+}
+
+.formContainer {
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.customContainer {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 25px;
+    border-color: dimgrey;
+}
+
+.headerContent {
+    color: darkgray;
+    font-size: 15px;
+}
+
+.border {
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
