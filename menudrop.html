@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selection</title>
+</head>
+<body>
+  <h1>Select a Option</h1>
+  <form>
+    <label for="category">Choose a category:</label>
+    <select id="category" name="category" onchange="showTextBox()">
+      <option value="Goa">Goa</option>
+      <option value="Munnar">Munnar</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <div id="other-textbox" style="display: none;">
+      <label for="other-category">Specify Other:</label>
+      <input type="text" id="other-category" name="other-category">
+    </div>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="/js/menudrop.js">
+   
+  </script>
+</body>
+</html>
