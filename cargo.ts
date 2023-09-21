@@ -1,4 +1,4 @@
-import {IPayload} from "./IInterface_rocket.js"
+import {IPayload} from "./IPayload.js"
 
 class Cargo implements IPayload{
     massKg: number;
