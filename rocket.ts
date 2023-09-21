@@ -1,6 +1,6 @@
 import {Cargo} from "./cargo.js"
 import {Astronaut} from "./astronaut.js"
-import {IPayload} from "./interface_rocket.js"
+import {IPayload} from "./IInterface_rocket.js"
 class Rocket{
   
 
